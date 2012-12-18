@@ -3,7 +3,6 @@
 Replicate Error:
 
      require 'open-uri'
-     require 'httpclient'
 
      link = "https://gist.github.com/raw/4310046/c5bbd0adc4bf1d97d825e3c376ed408fde22340f/generic_file"
      open( link ).read
