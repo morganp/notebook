@@ -24,6 +24,13 @@ Tell Ruby to use this certificate file
      link = "https://gist.github.com/raw/4310046/c5bbd0adc4bf1d97d825e3c376ed408fde22340f/generic_file"
      open( link ).read
 
+Sometimes the pem file already exists in certain locations look ther efirst?
+
+    puts Gem.path
+    puts Gem.bin_path('dssc_simple', 'dssc_simple_report')
+
+
+
 More complicated and OS specific solutions.
 
 Solution using macports [ruby19-and-the-ssl-error][].
